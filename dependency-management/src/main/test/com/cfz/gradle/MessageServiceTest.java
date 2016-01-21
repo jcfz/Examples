@@ -17,5 +17,6 @@ public class MessageServiceTest {
     @Test
     public void getMessage_ShouldReturnMessage() {
         assertEquals("Hello World!", messageService.getMessage());
+        assertEquals("Hello World!-test", messageService.getMessage());
     }
 }
