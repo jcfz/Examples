@@ -12,6 +12,6 @@ dependencies {
 jar {
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
     manifest {
-        attributes 'Main-Class': 'net.petrikainulainen.gradle.HelloWorld'
+        attributes 'Main-Class': 'com.cfz.gradle.HelloWorld'
     }
 }
