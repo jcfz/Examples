@@ -4,4 +4,4 @@ gradle-first-java
 
 dependency-management
 
-
+test
